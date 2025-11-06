@@ -5,7 +5,7 @@
 
   <!-- device -->
   <project name="android_device_motorola_eqe" path="device/motorola/eqe" remote="peace" />
-  <project name="hardware_motorola" path="hardware/motorola" remote="evo-devices" />
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 
   <!-- vendor -->
   <project name="proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="peace-gitlab" />
