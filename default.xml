@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="peace" fetch="https://github.com/Z7G4N1U8" revision="bka" />
+  <remote name="peace-gitlab" fetch="https://gitlab.com/Z7G4N1U8" revision="bka" />
 
   <!-- device -->
   <project name="android_device_motorola_eqe" path="device/motorola/eqe" remote="peace" />
   <project name="hardware_motorola" path="hardware/motorola" remote="evo-devices" />
 
   <!-- vendor -->
-  <project name="proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="peace" />
+  <project name="proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="peace-gitlab" />
   <project name="proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" remote="peace" />
 
   <!-- kernel -->
