@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="peace" fetch="https://github.com/Z7G4N1U8" revision="bka" />
-  <remote name="peace-gitlab" fetch="https://gitlab.com/Z7G4N1U8" revision="bka" />
+  <remote name="gitlab" fetch="https://gitlab.com" />
 
   <!-- device -->
-  <project name="android_device_motorola_eqe" path="device/motorola/eqe" remote="peace" />
+  <project name="Z7G4N1U8/android_device_motorola_eqe" path="device/motorola/eqe" />
   <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
 
   <!-- vendor -->
-  <project name="proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="peace-gitlab" />
-  <project name="proprietary_vendor_motorola_eqe-dump" path="vendor/motorola/eqe-dump" remote="peace-gitlab" revision="V1UMS35H.10-67-7-2" />
-  <project name="proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" remote="peace" />
+  <project name="Z7G4N1U8/proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="gitlab" />
+  <project name="Z7G4N1U8/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" />
 
   <!-- kernel -->
-  <project name="android_kernel_motorola_sm7550" path="kernel/motorola/sm7550" remote="peace" />
-  <project name="android_kernel_motorola_sm7550-modules" path="kernel/motorola/sm7550-modules" remote="peace" />
-  <project name="android_kernel_motorola_sm7550-devicetrees" path="kernel/motorola/sm7550-devicetrees" remote="peace" />
+  <project name="Z7G4N1U8/android_kernel_motorola_sm7550" path="kernel/motorola/sm7550" />
+  <project name="Z7G4N1U8/android_kernel_motorola_sm7550-modules" path="kernel/motorola/sm7550-modules" />
+  <project name="Z7G4N1U8/android_kernel_motorola_sm7550-devicetrees" path="kernel/motorola/sm7550-devicetrees" />
 </manifest>
