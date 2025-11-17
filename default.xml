@@ -3,15 +3,15 @@
   <remote name="gitlab" fetch="https://gitlab.com" />
 
   <!-- device -->
-  <project name="Z7G4N1U8/android_device_motorola_eqe" path="device/motorola/eqe" />
-  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" />
+  <project name="Z7G4N1U8/android_device_motorola_eqe" path="device/motorola/eqe" groups="local" />
+  <project name="LineageOS/android_hardware_motorola" path="hardware/motorola" groups="local" />
 
   <!-- vendor -->
-  <project name="Z7G4N1U8/proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="gitlab" />
-  <project name="Z7G4N1U8/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" />
+  <project name="Z7G4N1U8/proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="gitlab" groups="local" />
+  <project name="Z7G4N1U8/proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" groups="local" />
 
   <!-- kernel -->
-  <project name="Z7G4N1U8/android_kernel_motorola_sm7550" path="kernel/motorola/sm7550" />
-  <project name="Z7G4N1U8/android_kernel_motorola_sm7550-modules" path="kernel/motorola/sm7550-modules" />
-  <project name="Z7G4N1U8/android_kernel_motorola_sm7550-devicetrees" path="kernel/motorola/sm7550-devicetrees" />
+  <project name="Z7G4N1U8/android_kernel_motorola_sm7550" path="kernel/motorola/sm7550" groups="local" />
+  <project name="Z7G4N1U8/android_kernel_motorola_sm7550-modules" path="kernel/motorola/sm7550-modules" groups="local" />
+  <project name="Z7G4N1U8/android_kernel_motorola_sm7550-devicetrees" path="kernel/motorola/sm7550-devicetrees" groups="local" />
 </manifest>
