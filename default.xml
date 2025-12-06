@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="peace" fetch="https://github.com/z7g4n1u8" revision="sixteen" />
+  <remote name="peace" fetch="ssh://git@github.com/z7g4n1u8" revision="sixteen" />
 
   <!-- device -->
   <project name="android_device_motorola_eqe" path="device/motorola/eqe" remote="peace" groups="local" />
@@ -9,6 +9,7 @@
   <!-- vendor -->
   <project name="proprietary_vendor_motorola_eqe" path="vendor/motorola/eqe" remote="peace" groups="local" />
   <project name="proprietary_vendor_qcom_wfd" path="vendor/qcom/wfd" remote="peace" />
+  <project name="android_vendor_private_keys" path="vendor/private/keys" remote="peace" />
 
   <!-- kernel -->
   <project name="android_kernel_motorola_sm7550" path="kernel/motorola/sm7550" remote="peace" />
